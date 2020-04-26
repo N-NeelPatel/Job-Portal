@@ -4,7 +4,6 @@ It is a Job Portal that can be used to display Certain types of job based on cat
 This is the snapshot of Registration Page: ![alt text](https://github.com/N-NeelPatel/Job-Portal/blob/master/Screenshots/signup.PNG "Registration Page")
 This is the snapshot of Login Page: ![alt text](https://github.com/N-NeelPatel/Job-Portal/blob/master/Screenshots/login.PNG "Login Page")
 ## Features of Web Page
-This web page include the job search based on categories, like Btech, Mtech, MSc, etc.:
-![alt text](https://github.com/N-NeelPatel/Job-Portal/blob/master/Screenshots/jobsearch.PNG "Job Categories")
+This web page include the job search based on categories, like Btech, Mtech, MSc, etc.
 ## How to run
-From HTML_files get to index page and get started with website.
+From HTML_files get to index page and get started with website, and have fun.
