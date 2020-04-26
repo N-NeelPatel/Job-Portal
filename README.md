@@ -7,3 +7,5 @@ This is the snapshot of Login Page: ![alt text](https://github.com/N-NeelPatel/J
 This web page include the job search based on categories, like Btech, Mtech, MSc, etc.
 ## How to run
 From HTML_files get to index page and get started with website, and have fun.
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
