@@ -5,6 +5,7 @@ This is the snapshot of Registration Page: ![alt text](https://github.com/N-Neel
 This is the snapshot of Login Page: ![alt text](https://github.com/N-NeelPatel/Job-Portal/blob/master/Screenshots/login.PNG "Login Page")
 ## Features of Web Page
 This web page include the job search based on categories, like Btech, Mtech, MSc, etc.
+You can also create resume in this website, or even upload one.
 ## How to run
 From HTML_files get to index page and get started with website, and have fun.
 ## License
