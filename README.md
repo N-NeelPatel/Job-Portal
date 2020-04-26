@@ -8,4 +8,4 @@ This web page include the job search based on categories, like Btech, Mtech, MSc
 ## How to run
 From HTML_files get to index page and get started with website, and have fun.
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the Apache 2.0 License - see the LICENSE(https://github.com/N-NeelPatel/Job-Portal/blob/master/LICENSE "License") file for details
