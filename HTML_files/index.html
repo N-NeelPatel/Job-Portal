@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="setInterval(changecolor,1000)">
+
+<!-- Navbar -->
+<ul>
+  <li><a name="use"href="index.html">Naukri.com</a></li>
+  <li><a href="aboutus.html">About us</a></li>
+  <li class="dropdown">
+    <a class="dropbtn">Jobsearch</a>
+    <div class="dropdown-content">
+        <a  href="10.html">10th PASS</a>
+        <a  href="12.html">12th PASS</a>
+        <a  href="b_com.html">B.com</a>
+        <a  href="m_com.html">M.com</a>
+        <a  href="bsc.html">BSC</a>
+        <a  href="msc.html">MSC</a>
+        <a  href="be.html">B.tech</a>
+        <a  href="me.html">M.tech</a>
+        <a  href="mang.html">Management</a>
+        <a  href="hot_mang.html">Hotel-Management</a>
+        <a  href="diploma.html">Diploma</a>
+      </div>
+  </li>
+
+    <li><a href="register.php">Log Out</a></li>
+    <li><a href="resume.html">Edit Resume</a></li>
+</ul>
+
+<!-- Slider -->
+<div class="slidershow middle">
+
+      <div class="slides">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <div class="slide s1">
+          <img class="mySlides" src="account.jpg" alt="">
+          <div class="text">First step: signup/create your account on naukri.com .</div>
+        </div>
+        <div class="slide">
+          <img class="mySlides" src="search.jpg" alt="">
+          <div class="text">Second step: after signing in search your jobs on bases of your skills.</div>
+        </div>
+        <div class="slide">
+          <img class="mySlides" src="apply.jpg" alt="">
+          <div class="text">Third step: after finding appropriate job, apply for it. </div>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+      </div>
+    </div>
+<!-- Announcements by highlight -->
+    <div class="highlightcontainer">
+	<h1 id="h">!!! New Batch for GATE !!!</h1>
+    </div>
+
+<!-- advertisement cards -->
+<div class="addcard">
+  <div class="container">
+  	<div class="addsimg">
+  	<a href="https://icegateinstitute.com/"><img src="gate.png"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Announcements by highlight -->
+    <div class="highlightcontainer">
+	<h1 id="j">!!! New Batch for JEE/NEET !!!</h1>
+    </div>
+
+<!-- advertisement cards -->
+<div class="addcard">
+  <div class="container">
+  	<div class="addsimg">
+  	<a href="https://www.aakash.ac.in/"><img src="akash.jpg"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Announcements by highlight -->
+    <div class="highlightcontainer">
+	<h1 id="k">!!! New Batch for JEE/NEET/AIIMS !!!</h1>
+    </div>
+
+<!-- advertisement cards -->
+<div class="addcard">
+  <div class="container">
+  	<div class="addsimg">
+  	<a href="https://www.allen.ac.in/vadodara/admissioninfo/admission.asp?utm_source=Google&utm_medium=CPC&utm_campaign=ACI-Vadodara-ASAT-2020-21_LD&utm_adgroup=Brand_Allen_Asat_Dates_Exact&utm_term=allen&utm_source=google_search{ifdisplay:google_display}{ifvideo:google_youtube}&utm_medium=cpc{ifdisplay:cpc}{ifvideo:cpv}&utm_campaign=&utm_adgroup=&utm_term=allen&utm_network=g&utm_matchtype=b&utm_device=c&utm_placement=&utm_content=&utm_location=1007753&utm_Sitelink=&gclid=EAIaIQobChMIu7Lj88qm6AIVWBmPCh23YQRlEAAYASAAEgL4IPD_BwE"><img src="alen.jpg"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="contain">
+  <div class="col">
+    <h1>Company</h1>
+    <ul>
+      <li class="unique"><a href="aboutus.html">About us</a></li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Services</h1>
+    <ul>
+      <li class="unique"> <a href="#use">How to use</a></li>
+    </ul>
+  </div>
+   <div class="col">
+    <h1>Aim</h1>
+    <ul>
+      <li>Naukri.com is best platform for talent for such peoples, who are inovative, creative, skilled and educated. So that they can easily get jobs and Emplyers can create jobs on site.</li>
+    </ul>
+  </div>
+  <div class="col social">
+    <h1>Social</h1>
+    <ul>
+      <li class="unique"><a href="https://www.facebook.com/smit.rathod.775"><img src="fb.png" width="32" style="width: 32px;"></a></li>
+      <li class="unique"><a href="https://www.instagram.com/smit_rathod_08/"><img src="insta.png" width="32" style="width: 32px;"></a></li>
+      <li class="unique"><a href="https://twitter.com/Smit83359269"><img src="twit.jpg" width="32" style="width: 32px;"></a></li>
+    </ul>
+  </div>
+<div class="copy">
+ &copy; Naukri.com. All rights reserved. 
+</div>
+</div>
+</div>
+<!-- JS for announcements -->
+<script type="text/javascript">
+		function changecolor() {
+			var x=document.getElementById("h");
+			if(x.style.color=="red"){
+				x.style.color="rgb(69,184,181)";
+			}
+			else if (x.style.color=="rgb(69,184,181)") {
+				x.style.color="green";
+			}
+			else {
+				x.style.color="red";
+			}
+			var y=document.getElementById("j");
+			if(y.style.color=="blue"){
+				y.style.color="red";
+			}
+			else if (y.style.color=="red") {
+				y.style.color="green";
+			}
+			else {
+				y.style.color="blue";
+			}
+			var z=document.getElementById("k");
+			if(z.style.color=="green"){
+				z.style.color="blue";
+			}
+			else if (z.style.color=="blue") {
+				z.style.color="rgb(69,184,181)";
+			}
+			else {
+				z.style.color="green";
+			}
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<ul>
+  <li><a name="use"href="index.html">Naukri.com</a></li>
+  <li><a href="aboutus.html">About us</a></li>
+  <li class="dropdown">
+    <a class="dropbtn">Jobsearch</a>
+    <div class="dropdown-content">
+        <a  href="10.html">10th PASS</a>
+        <a  href="12.html">12th PASS</a>
+        <a  href="b_com.html">B.com</a>
+        <a  href="m_com.html">M.com</a>
+        <a  href="bsc.html">BSC</a>
+        <a  href="msc.html">MSC</a>
+        <a  href="be.html">B.tech</a>
+        <a  href="me.html">M.tech</a>
+        <a  href="mang.html">Management</a>
+        <a  href="hot_mang.html">Hotel-Management</a>
+        <a  href="diploma.html">Diploma</a>
+      </div>
+  </li>
+
+    <li><a href="register.php">Log Out</a></li>
+    <li><a href="resume.html">Edit Resume</a></li>
+</ul>
+<br />
+<br />
+
+<!-- Buttons -->
+<div class="btt">
+<button onclick="myFunction()" class="button button4">Goverment jobs</button>
+<button class="button button5">Corporate jobs</button>
+</div>
+<br />
+<br />
+
+<!-- label -->
+<div class="container">
+<h2 id="label">Corporate jobs: </h2>
+</div>
+
+<!-- cards -->
+<div class="card">
+  <div class="container">
+    <h2 class="card-title"> TRAINEE- SEO/EXECUTIVE- SEO( Search Engine Optimization) </h2>
+    <p class="card-title"> XPERT REALITY </p>
+    <p class="card-title"> Greater Noida, Uttar Pradesh </p>
+    <p class="card-title"> Rs10,000 - Rs30,000 a month </p>
+    <p > Apply upto Date: 4/18/20 </p>
+    <p id="p1"> Vacancy: 2 </p>
+    <p id="demo"> </p>
+    <p class="card-title"> SKILLS: </p>
+    <p class="card-text"> 10+2 passed, BBA, BCA,B.Com passed with knowledge of computers. </p>
+    <button class="button button2">Apply</button>
+  </div>
+</div>
+
+<div class="card">
+  <div class="container">
+   <h2 class="card-title"> Data Entry Operator </h2>
+    <p class="card-text"> Engineers India Ltd </p>
+    <p class="card-title"> Vasai, Maharashtra </p>
+    <p class="card-title"> Rs10,000 - Rs16,000 a month </p>
+    <p > Apply upto Date: 4/27/20 </p>
+    <p id="p2"> Vacancy: 4 </p>
+    
+    <p class="card-title"> SKILLS: </p>
+    <p class="card-text"> Data Entry, Typing , Microsoft Office, MIS </p>
+    <button class="button button2">Apply</button>
+  </div>
+</div>
+
+<div class="card">
+  <div class="container">
+    <h2 class="card-title"> Computer Operator </h2>
+    <p class="card-title"> 10Fingers Solutions Pvt Ltd </p>
+    <p class="card-title"> Ahmedabad, Gujarat</p>
+    <p class="card-text"> Rs5,000 - Rs15,000 a month </p>
+    <p > Apply upto Date: 4/23/20 </p>
+    <p id="p2"> Vacancy: 1 </p>
+    
+    <p class="card-title"> SKILLS: </p>
+    <p class="card-text"> fast typing speed and knowledge about the excel. </p>
+    <button class="button button2">Apply</button>
+  </div>
+</div>
+
+<div class="card">
+  <div class="container">
+    <h2 class="card-title"> Export Executive </h2>
+    <p class="card-text"> vimal pvt ltd </p>
+    <p class="card-title"> Kolkata, West Bengal </p>
+    <p > Apply upto Date: 4/10/20 </p>
+    <p id="p2"> Vacancy: 2 </p>
+    
+    <p class="card-title"> SKILLS: </p>
+    <p class="card-text"> knowledge about import and export sales. </p>
+    <button class="button button2">Apply</button>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="contain">
+  <div class="col">
+    <h1>Company</h1>
+    <ul>
+      <li class="unique"><a href="aboutus.html">About us</a></li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Services</h1>
+    <ul>
+      <li class="unique"> <a href="index.html">How to use</a></li>
+    </ul>
+  </div>
+   <div class="col">
+    <h1>Aim</h1>
+    <ul>
+      <li>Naukri.com is best platform for talent for such peoples, who are inovative, creative, skilled and educated. So that they can easily get jobs and Emplyers can create jobs on site.</li>
+    </ul>
+  </div>
+  <div class="col social">
+    <h1>Social</h1>
+    <ul>
+      <li class="unique"><a href="https://www.facebook.com/smit.rathod.775"><img src="fb.png" width="32" style="width: 32px;"></a></li>
+      <li class="unique"><a href="https://www.instagram.com/smit_rathod_08/"><img src="insta.png" width="32" style="width: 32px;"></a></li>
+      <li class="unique"><a href="https://twitter.com/Smit83359269"><img src="twit.jpg" width="32" style="width: 32px;"></a></li>
+    </ul>
+  </div>
+<div class="copy">
+ &copy; Naukri.com. All rights reserved. 
+</div>
+</div>
+</div>
+
+
+<script>
+
+var date1 = new Date(); 
+var date2 = new Date("04/18/2020"); 
+
+// To calculate the time difference of two dates 
+var Difference_In_Time = date2.getTime() - date1.getTime(); 
+
+// To calculate the no. of days between two dates 
+var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24); 
+if(Difference_In_Days <= 7){
+var x= document.getElementById("p1");
+x.style.color="red";
+document.getElementById("demo").innerHTML = "Urgent! Seats are vacant and due date is near.";
+}
+
+function myFunction() {
+  location.replace("b_com_gov.html")
+}
+</script>
+</body>
+</html> 
