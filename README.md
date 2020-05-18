@@ -7,6 +7,10 @@ This is the snapshot of Login Page: ![alt text](https://github.com/N-NeelPatel/J
 ## Features of Web Page
 This web page include the job search based on categories, like Btech, Mtech, MSc, etc.
 You can also create resume in this website, or even upload one.
+## Requirements
+Any Browser, XAMPP, PHP 7 Mysql
+## Steps for Execution 
+1. Download the folder
 ## How to run
 From HTML_files get to index page and get started with website, and have fun.
 ## License
