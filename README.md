@@ -10,7 +10,8 @@ You can also create resume in this website, or even upload one.
 ## Requirements
 Any Browser, XAMPP, PHP 7 Mysql
 ## Steps for Execution 
-1. Download the folder
+1. Download all the folders containing various files.
+2. Open `index.html`
 ## How to run
 From HTML_files get to index page and get started with website, and have fun.
 ## License
