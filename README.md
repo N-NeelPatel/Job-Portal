@@ -15,7 +15,5 @@ Any Browser, XAMPP, PHP 7 Mysql
 3. For testing database (backend), open XAMPP control panel and start PHP and mysql.
 4. Create database as registerdb and table name as sysusers of 4 columns named as `id, username, password, created_at`.
 5. For testing register, open `register.php`. After registration, the site will ask for login, and after successfully login, test front-end functions.
-## How to run
-From HTML_files get to index page and get started with website, and have fun.
 ## License
 This project is licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/N-NeelPatel/Job-Portal/blob/master/LICENSE "License") file for details
